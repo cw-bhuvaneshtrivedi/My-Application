@@ -17,6 +17,8 @@
 		AB1BD85D2C08C349009BDFCA /* My_ApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BD85C2C08C349009BDFCA /* My_ApplicationTests.m */; };
 		AB1BD8672C08C349009BDFCA /* My_ApplicationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BD8662C08C349009BDFCA /* My_ApplicationUITests.m */; };
 		AB1BD8692C08C349009BDFCA /* My_ApplicationUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BD8682C08C349009BDFCA /* My_ApplicationUITestsLaunchTests.m */; };
+		AB1BD8762C0F5CCD009BDFCA /* carImage.webp in Resources */ = {isa = PBXBuildFile; fileRef = AB1BD8752C0F5CCD009BDFCA /* carImage.webp */; };
+		AB1BD8BD2C10AF97009BDFCA /* UsedCarData.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BD8BC2C10AF97009BDFCA /* UsedCarData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,9 @@
 		AB1BD8622C08C349009BDFCA /* My ApplicationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My ApplicationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1BD8662C08C349009BDFCA /* My_ApplicationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_ApplicationUITests.m; sourceTree = "<group>"; };
 		AB1BD8682C08C349009BDFCA /* My_ApplicationUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = My_ApplicationUITestsLaunchTests.m; sourceTree = "<group>"; };
+		AB1BD8752C0F5CCD009BDFCA /* carImage.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = carImage.webp; sourceTree = "<group>"; };
+		AB1BD8BB2C10AF97009BDFCA /* UsedCarData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UsedCarData.h; sourceTree = "<group>"; };
+		AB1BD8BC2C10AF97009BDFCA /* UsedCarData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UsedCarData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +116,10 @@
 				AB1BD8462C08C349009BDFCA /* ViewController.h */,
 				AB1BD8472C08C349009BDFCA /* ViewController.m */,
 				AB1BD8492C08C349009BDFCA /* Main.storyboard */,
+				AB1BD8BB2C10AF97009BDFCA /* UsedCarData.h */,
+				AB1BD8BC2C10AF97009BDFCA /* UsedCarData.m */,
 				AB1BD84C2C08C349009BDFCA /* Assets.xcassets */,
+				AB1BD8752C0F5CCD009BDFCA /* carImage.webp */,
 				AB1BD84E2C08C349009BDFCA /* LaunchScreen.storyboard */,
 				AB1BD8512C08C349009BDFCA /* Info.plist */,
 				AB1BD8522C08C349009BDFCA /* main.m */,
@@ -241,6 +249,7 @@
 			files = (
 				AB1BD8502C08C349009BDFCA /* LaunchScreen.storyboard in Resources */,
 				AB1BD84D2C08C349009BDFCA /* Assets.xcassets in Resources */,
+				AB1BD8762C0F5CCD009BDFCA /* carImage.webp in Resources */,
 				AB1BD84B2C08C349009BDFCA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1BD8BD2C10AF97009BDFCA /* UsedCarData.m in Sources */,
 				AB1BD8482C08C349009BDFCA /* ViewController.m in Sources */,
 				AB1BD8422C08C349009BDFCA /* AppDelegate.m in Sources */,
 				AB1BD8532C08C349009BDFCA /* main.m in Sources */,
